@@ -7,7 +7,7 @@ class DBHelper {
     //*It will create a new database and its path will be outputed
     final dbPath = await sql.getDatabasesPath();
 
-    //*Not it will open the database, if it doesn't find the file, it will
+    //*Now it will open the database, if it doesn't find the file, it will
     //*create a database
     return sql.openDatabase(path.join(dbPath, 'places.db'),
         onCreate: ((db, version) {

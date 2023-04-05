@@ -28,6 +28,12 @@
 	<string>Please provide permission</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Please provide permission</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please provide permission to use location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Please provide permission to always use location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Please provide permission to always use location </string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Please provide permissiom</string>
 	<key>UILaunchStoryboardName</key>
